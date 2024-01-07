@@ -1,0 +1,28 @@
+%! Package = fdsn201
+%! Author = Len Washington III
+%! Date = 12/26/23
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{fdsn201}[2023/12/26 A styling package for the class: ]
+
+\RequirePackage{kvoptions}
+
+\SetupKeyvalOptions{
+	family=fdsn,
+	prefix=fdsn@
+}
+
+\DeclareStringOption{title}
+\DeclareStringOption[Len Washington III]{author}
+\DeclareStringOption[\today]{date}
+\DeclareStringOption[Nutrition and Wellness]{subject}
+\DeclareStringOption[FDSN 201]{subjectCode}
+
+\ProcessKeyvalOptions*
+
+\RequirePackage[author=\fdsn@author,
+	title=\fdsn@title,
+	date=\fdsn@date,
+	subject=\fdsn@subject,
+	code=\fdsn@subjectCode
+]{iitacademics}

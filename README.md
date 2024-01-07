@@ -1,4 +1,2 @@
-# IIT Class Repository Template
+# FDSN 201 - Nutrition and Wellness
 ## Author: Len Washington III
-
-Note: 
