@@ -14,7 +14,7 @@
 
 \DeclareStringOption{title}
 \DeclareStringOption[Len Washington III]{author}
-\DeclareStringOption[\today]{date}
+\DeclareStringOption[{\today}]{date}
 \DeclareStringOption[Nutrition and Wellness]{subject}
 \DeclareStringOption[FDSN 201]{subjectCode}
 
@@ -22,7 +22,7 @@
 
 \RequirePackage[author=\fdsn@author,
 	title=\fdsn@title,
-	date=\fdsn@date,
+%	date=\fdsn@date,
 	subject=\fdsn@subject,
 	code=\fdsn@subjectCode
 ]{iitacademics}
