@@ -9,6 +9,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/styles/tex/latex/fdsn201discussion" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/styles/tex/latex/fdsn201homework" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/styles/tex/latex/fdsn201notes" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/src/styles/tex/latex/iitacademics" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/auxil" />
       <excludeFolder url="file://$MODULE_DIR$/out" />
     </content>
