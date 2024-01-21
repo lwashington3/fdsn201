@@ -20,7 +20,12 @@
 
 \RequirePackage[title={\fdsnnotes@title\ Notes}]{fdsn201}
 \RequirePackage{subcaption}
+\RequirePackage{multirow}
 
 \renewcommand{\maketitle}{\begin{center}\LARGE\textbf{\fdsnnotes@title}\end{center}}
 
 \newcommand{\definition}[2]{\textcolor{red}{\textbf{#1}} -- #2}
+
+\definecolor{rowlightgreen}{HTML}{ffffef}
+\definecolor{rowmedgreen}{HTML}{faffbf}
+\definecolor{rowdarkgreen}{HTML}{d3df37}
