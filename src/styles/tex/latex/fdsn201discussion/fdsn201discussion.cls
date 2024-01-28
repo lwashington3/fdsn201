@@ -22,6 +22,8 @@
 \RequirePackage[title=\fdsndiscussion@title]{fdsn201}
 \renewcommand{\maketitle}{\begin{center}\textbf{\fdsndiscussion@title~(\fdsndiscussion@points~points)}\end{center}}
 
+\setlength{\parindent}{0pt}
+
 \RequirePackage{enumitem}
 \newlist{problems}{enumerate}{2}
 \setlist[problems, 1]
@@ -32,3 +34,11 @@
 \setlist[problems, 2]
 {label=\textbf{(\alph{problemsii})},
 	leftmargin=30pt,}
+
+\RequirePackage{titlesec}
+
+\titleformat{\section}
+{\Large\bfseries}
+{Week \arabic{section}: }
+{0em}
+{}
