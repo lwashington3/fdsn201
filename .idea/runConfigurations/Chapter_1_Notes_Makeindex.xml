@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Chapter 1 Notes Makeindex" type="MAKEINDEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
+  <configuration default="false" name="Chapter 1 Notes Makeindex" type="MAKEINDEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory" folderName="Notes Makeindex">
     <texify-makeindex>
       <program>MAKEINDEX</program>
       <main-file>$PROJECT_DIR$/src/notes/chapter1.tex</main-file>

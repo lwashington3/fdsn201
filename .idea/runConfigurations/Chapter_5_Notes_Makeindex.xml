@@ -1,8 +1,8 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Chapter 3 Notes Makeindex" type="MAKEINDEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory" folderName="Notes Makeindex">
+  <configuration default="false" name="Chapter 5 Notes Makeindex" type="MAKEINDEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory" folderName="Notes Makeindex">
     <texify-makeindex>
       <program>MAKEINDEX</program>
-      <main-file>$PROJECT_DIR$/src/notes/chapter3.tex</main-file>
+      <main-file>$PROJECT_DIR$/src/notes/chapter5.tex</main-file>
       <command-line-args />
       <work-dir>$PROJECT_DIR$/auxil/notes</work-dir>
     </texify-makeindex>
