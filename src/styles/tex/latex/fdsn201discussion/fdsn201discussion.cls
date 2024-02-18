@@ -14,13 +14,17 @@
 	prefix=fdsndiscussion@
 }
 
-\DeclareStringOption{title}
+\DeclareStringOption{week}
 \DeclareStringOption{points}
 
 \ProcessKeyvalOptions*
 
-\RequirePackage[title=\fdsndiscussion@title]{fdsn201}
-\renewcommand{\maketitle}{\begin{center}\textbf{\fdsndiscussion@title~(\fdsndiscussion@points~points)}\end{center}}
+\RequirePackage[title={FDSN 201 Discussion Board Week \fdsndiscussion@week}]{fdsn201}
+\setcounter{section}{\fdsndiscussion@week}
+\addtocounter{section}{-1}
+\addbibresource{sources.bib}
+
+\renewcommand{\maketitle}{\begin{center}\textbf{\fdsn@title~(\fdsndiscussion@points~points)}\end{center}}
 
 \setlength{\parindent}{0pt}
 

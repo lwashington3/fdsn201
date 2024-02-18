@@ -1,0 +1,23 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Discussion Board 5: Protein" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory" folderName="New Folder">
+    <texify>
+      <compiler>PDFLATEX</compiler>
+      <compiler-path />
+      <sumatra-path />
+      <pdf-viewer>NONE</pdf-viewer>
+      <viewer-command>pdfopener</viewer-command>
+      <compiler-arguments />
+      <envs />
+      <main-file>$PROJECT_DIR$/src/discussions/washington_discussion_board5.tex</main-file>
+      <output-path>$PROJECT_DIR$/out/discussion_boards</output-path>
+      <auxil-path>$PROJECT_DIR$/auxil/discussion_boards</auxil-path>
+      <compile-twice>false</compile-twice>
+      <output-format>PDF</output-format>
+      <latex-distribution>MIKTEX</latex-distribution>
+      <has-been-run>true</has-been-run>
+      <bib-run-config>[BibTeX.DB Protein Bibliography]</bib-run-config>
+      <makeindex-run-config>[]</makeindex-run-config>
+    </texify>
+    <method v="2" />
+  </configuration>
+</component>

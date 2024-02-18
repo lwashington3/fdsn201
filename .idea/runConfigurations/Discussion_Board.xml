@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Discussion Board" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory">
+  <configuration default="false" name="Discussion Board" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory" folderName="New Folder">
     <texify>
       <compiler>PDFLATEX</compiler>
       <compiler-path />
@@ -8,7 +8,7 @@
       <viewer-command>pdfopener</viewer-command>
       <compiler-arguments />
       <envs />
-      <main-file>$PROJECT_DIR$/src/discussions/washington_discussion_board.tex</main-file>
+      <main-file />
       <output-path>$PROJECT_DIR$/out</output-path>
       <auxil-path>$PROJECT_DIR$/auxil</auxil-path>
       <compile-twice>false</compile-twice>
