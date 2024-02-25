@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Discussion Board" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory" folderName="Discussion Boards">
+  <configuration default="false" name="Chapter 7 Notes: Fluids and Electrolyte Balance" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory" folderName="Notes">
     <texify>
       <compiler>PDFLATEX</compiler>
       <compiler-path />
@@ -8,15 +8,15 @@
       <viewer-command>pdfopener</viewer-command>
       <compiler-arguments />
       <envs />
-      <main-file />
-      <output-path>$PROJECT_DIR$/out</output-path>
-      <auxil-path>$PROJECT_DIR$/auxil</auxil-path>
+      <main-file>$PROJECT_DIR$/src/notes/chapter7.tex</main-file>
+      <output-path>$PROJECT_DIR$/out/notes</output-path>
+      <auxil-path>$PROJECT_DIR$/auxil/notes</auxil-path>
       <compile-twice>false</compile-twice>
       <output-format>PDF</output-format>
-      <latex-distribution>MIKTEX</latex-distribution>
+      <latex-distribution>TEXLIVE</latex-distribution>
       <has-been-run>true</has-been-run>
       <bib-run-config>[]</bib-run-config>
-      <makeindex-run-config>[]</makeindex-run-config>
+      <makeindex-run-config>[Makeindex.Chapter 7 Notes Makeindex]</makeindex-run-config>
     </texify>
     <method v="2" />
   </configuration>

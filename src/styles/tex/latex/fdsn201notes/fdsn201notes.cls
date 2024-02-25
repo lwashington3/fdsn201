@@ -26,6 +26,9 @@
 
 \newcommand{\definition}[2]{\textcolor{red}{\textbf{#1}} -- #2}
 
+\let\oldemph\emph
+\renewcommand{\emph}[1]{\textcolor{red}{#1}}
+
 \definecolor{rowlightgreen}{HTML}{ffffef}
 \definecolor{rowmedgreen}{HTML}{faffbf}
 \definecolor{rowdarkgreen}{HTML}{d3df37}

@@ -1,5 +1,7 @@
 auxil
 
+out/**/*.run.xml
+
 ### TeX template
 ## Core latex/pdflatex auxiliary files:
 *.aux

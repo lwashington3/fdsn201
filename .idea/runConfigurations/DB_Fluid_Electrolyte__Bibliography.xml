@@ -1,0 +1,13 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="DB Fluid/Electrolyte  Bibliography" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory" folderName="Discussion Board Bibliographies">
+    <texify-bibtex>
+      <compiler>BIBER</compiler>
+      <compiler-path />
+      <compiler-arguments />
+      <envs />
+      <main-file>$PROJECT_DIR$/src/discussions/washington_discussion_board6.tex</main-file>
+      <aux-dir>$PROJECT_DIR$/auxil/discussion_boards</aux-dir>
+    </texify-bibtex>
+    <method v="2" />
+  </configuration>
+</component>

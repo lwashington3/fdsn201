@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Literature Review &amp; Article Selection (Part 2)" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory" folderName="Credible Sources Assignment">
+  <configuration default="false" name="Reflection &amp; Summary (Part 3)" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory" folderName="Credible Sources Assignment">
     <texify>
       <compiler>PDFLATEX</compiler>
       <compiler-path />
@@ -8,14 +8,14 @@
       <viewer-command>pdfopener</viewer-command>
       <compiler-arguments />
       <envs />
-      <main-file>$PROJECT_DIR$/src/homework/credible_sources/washington_literature_review.tex</main-file>
+      <main-file>$PROJECT_DIR$/src/homework/credible_sources/washington_reflection_summary.tex</main-file>
       <output-path>$PROJECT_DIR$/out/homework/credible_sources</output-path>
       <auxil-path>$PROJECT_DIR$/auxil/homework/credible_sources</auxil-path>
       <compile-twice>false</compile-twice>
       <output-format>PDF</output-format>
       <latex-distribution>MIKTEX</latex-distribution>
       <has-been-run>true</has-been-run>
-      <bib-run-config>[BibTeX.Literature Review Bibliography]</bib-run-config>
+      <bib-run-config>[BibTeX.Reflection &amp; Summary Bibliography]</bib-run-config>
       <makeindex-run-config>[]</makeindex-run-config>
     </texify>
     <method v="2" />

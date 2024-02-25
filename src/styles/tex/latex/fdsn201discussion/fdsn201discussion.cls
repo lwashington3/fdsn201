@@ -39,6 +39,7 @@
 {label=\textbf{(\alph{problemsii})},
 	leftmargin=30pt,}
 
+\RequirePackage{ulem}
 \RequirePackage{titlesec}
 
 \titleformat{\section}

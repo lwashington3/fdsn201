@@ -1,11 +1,11 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Literature Review Bibliography" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory" folderName="Credible Sources Assignment">
+  <configuration default="false" name="Reflection &amp; Summary Bibliography" type="BIBTEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory" folderName="Credible Sources Assignment">
     <texify-bibtex>
       <compiler>BIBER</compiler>
       <compiler-path />
       <compiler-arguments />
       <envs />
-      <main-file>$PROJECT_DIR$/src/homework/credible_sources/washington_literature_review.tex</main-file>
+      <main-file>$PROJECT_DIR$/src/homework/credible_sources/washington_reflection_summary.tex</main-file>
       <aux-dir>$PROJECT_DIR$/auxil/homework/credible_sources</aux-dir>
     </texify-bibtex>
     <method v="2" />
