@@ -21,8 +21,10 @@
 \RequirePackage[title={\fdsnnotes@title\ Notes}]{fdsn201}
 \RequirePackage{subcaption}
 \RequirePackage{multirow}
+\RequirePackage{textcomp}
 
-\renewcommand{\maketitle}{\begin{center}\LARGE\textbf{\fdsnnotes@title}\end{center}}
+
+\renewcommand{\maketitle}[1]{\setcounter{chapter}{#1}\begin{center}\LARGE\textbf{\fdsnnotes@title}\end{center}}
 
 \newcommand{\definition}[2]{\textcolor{red}{\textbf{#1}} -- #2}
 
