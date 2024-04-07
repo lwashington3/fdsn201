@@ -26,10 +26,10 @@
 
 \renewcommand{\maketitle}[1]{\setcounter{chapter}{#1}\begin{center}\LARGE\textbf{\fdsnnotes@title}\end{center}}
 
-\newcommand{\definition}[2]{\textcolor{red}{\textbf{#1}} -- #2}
+\newcommand{\definition}[2]{\textcolor{fdsnred}{\textbf{#1}} -- #2}
 
 \let\oldemph\emph
-\renewcommand{\emph}[1]{\textcolor{red}{#1}}
+\renewcommand{\emph}[1]{\textcolor{fdsnred}{#1}}
 
 \definecolor{rowlightgreen}{HTML}{f3f7de}
 \definecolor{rowmedgreen}{HTML}{e5eeb7}

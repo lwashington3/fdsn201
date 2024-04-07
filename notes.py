@@ -1,11 +1,12 @@
 def main(filename:str, lecture:int):
 	from datetime import date
 	from re import sub, I, Match
+	from pathlib import Path
 
 	with open(filename, 'r') as f:
 		lines = f.read()
 
-	with open(f"src/notes/chapter{lecture}.tex", 'w') as f:
+	with open(Path(__file__).parent.absolute() / "src" / "notes" / f"chapter{lecture}.tex", 'w') as f:
 		def fig(match:Match):
 			return f"""\n\n\\begin{{figure}}[H]
 	\\centering
@@ -15,11 +16,11 @@ def main(filename:str, lecture:int):
 \\end{{figure}}\n\n"""
 
 		lines = sub(r'\d+\n', '', lines)
-		lines = sub(r'\n© 2018 Pearson Education, Inc\.', '', lines)
+		lines = sub(r'\n© 201\d Pearson Education, Inc\.', '', lines)
 		lines = sub(r'\n\n([\w ]+)\n\n', fig, lines)
 		lines = sub(r'\n\n([\w ]+)\n\b', lambda match: f"\n\n\\section{{{match.group(1)}}}\\label{{sec:{match.group(1).lower().replace(' ', '-')}}}\n", lines)
 		print(lines)
-		lines = sub(r'([%&])', "\\\1", lines)
+		lines = sub(r'([%&$])', "\\\1", lines)
 		lines = sub(r'\x0b', "", lines)
 		lines = sub(r'\\', "\\%", lines)
 		lines = sub(r'\\–', "--", lines)
@@ -42,4 +43,5 @@ def main(filename:str, lecture:int):
 
 
 if __name__ == "__main__":
-	main("/home/valence/Downloads/Homework Assignments/11 - Thompson_5e_Lecture_Ch11.txt", 11)
+	from sys import argv
+	main(argv[1], argv[2])
