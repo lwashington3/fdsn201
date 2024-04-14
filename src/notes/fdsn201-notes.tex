@@ -1,0 +1,38 @@
+%! Author = Len Washington III
+%! Date = 4/13/24
+
+% Preamble
+\documentclass[
+	title={FDSN 201}
+]{fdsn201notes}
+
+\renewcommand{\maketitle}{%
+	\begin{center}\LARGE\textbf{FDSN 201: Notes}\end{center}
+}
+
+% Document
+\begin{document}
+
+\maketitle
+
+\renewcommand{\maketitle}[2][]{\chapter{#2}\label{ch:#1}}
+
+\listoffigures
+\listoftables
+
+\ExecuteMetaData[chapter1]{Chapter1}
+\ExecuteMetaData[chapter2]{Chapter2}
+\ExecuteMetaData[chapter3]{Chapter3}
+\ExecuteMetaData[chapter4]{Chapter4}
+\ExecuteMetaData[chapter5]{Chapter5}
+\ExecuteMetaData[chapter6]{Chapter6}
+\ExecuteMetaData[chapter7]{Chapter7}
+\ExecuteMetaData[chapter8]{Chapter8}
+\ExecuteMetaData[chapter9]{Chapter9}
+\ExecuteMetaData[chapter10]{Chapter10}
+\ExecuteMetaData[chapter11]{Chapter11}
+\ExecuteMetaData[chapter12]{Chapter12}
+\ExecuteMetaData[chapter13]{Chapter13}
+%\ExecuteMetaData[chapter14]{Chapter14}
+
+\end{document}
