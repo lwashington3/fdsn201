@@ -15,8 +15,9 @@
 
 \maketitle
 
-\renewcommand{\maketitle}[2][]{\chapter{#2}\label{ch:#1}}
+\renewcommand{\maketitle}[2]{\chapter{#2}\label{ch:#1}}
 
+\tableofcontents
 \listoffigures
 \listoftables
 
@@ -33,6 +34,6 @@
 \ExecuteMetaData[chapter11]{Chapter11}
 \ExecuteMetaData[chapter12]{Chapter12}
 \ExecuteMetaData[chapter13]{Chapter13}
-%\ExecuteMetaData[chapter14]{Chapter14}
+\ExecuteMetaData[chapter14]{Chapter14}
 
 \end{document}

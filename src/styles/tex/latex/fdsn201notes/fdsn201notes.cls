@@ -33,7 +33,7 @@
 
 \definecolor{rowlightgreen}{HTML}{f3f7de}
 \definecolor{rowmedgreen}{HTML}{e5eeb7}
-\definecolor{rowdarkgreen}{HTML}{c1d947}
+\definecolor{rowdarkgreen}{HTML}{C3D947}
 
 \setlist[description]{%
 	font={\color{fdsnred}}
@@ -92,4 +92,4 @@
 	\end{table}
 }
 
-\newcommand{\indepth}{\section}
+\newcommand{\indepth}[1]{\section{In Depth: #1}}
