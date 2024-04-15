@@ -24,7 +24,7 @@
 \RequirePackage{textcomp}
 \RequirePackage{enumitem}
 
-\renewcommand{\maketitle}[1]{\setcounter{chapter}{#1}\begin{center}\LARGE\textbf{\fdsnnotes@title}\end{center}}
+\renewcommand{\maketitle}[2]{\setcounter{chapter}{#1}\begin{center}\LARGE\textbf{\fdsnnotes@title}\end{center}}
 
 \newcommand{\definition}[2]{\textcolor{fdsnred}{\textbf{#1}} -- #2}
 

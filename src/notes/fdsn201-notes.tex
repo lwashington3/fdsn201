@@ -21,19 +21,8 @@
 \listoffigures
 \listoftables
 
-\ExecuteMetaData[chapter1]{Chapter1}
-\ExecuteMetaData[chapter2]{Chapter2}
-\ExecuteMetaData[chapter3]{Chapter3}
-\ExecuteMetaData[chapter4]{Chapter4}
-\ExecuteMetaData[chapter5]{Chapter5}
-\ExecuteMetaData[chapter6]{Chapter6}
-\ExecuteMetaData[chapter7]{Chapter7}
-\ExecuteMetaData[chapter8]{Chapter8}
-\ExecuteMetaData[chapter9]{Chapter9}
-\ExecuteMetaData[chapter10]{Chapter10}
-\ExecuteMetaData[chapter11]{Chapter11}
-\ExecuteMetaData[chapter12]{Chapter12}
-\ExecuteMetaData[chapter13]{Chapter13}
-\ExecuteMetaData[chapter14]{Chapter14}
+\foreach \i in {1,2,3,4,5,6,7,8,9,10,11,12,13,14,15}{
+	\ExecuteMetaData[chapter\i]{Chapter\i}
+}
 
 \end{document}
