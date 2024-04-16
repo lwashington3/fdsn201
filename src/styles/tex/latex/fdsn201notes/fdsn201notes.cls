@@ -34,6 +34,8 @@
 \definecolor{rowlightgreen}{HTML}{f3f7de}
 \definecolor{rowmedgreen}{HTML}{e5eeb7}
 \definecolor{rowdarkgreen}{HTML}{C3D947}
+\definecolor{activityblue}{HTML}{0071bb}
+\newcommand{\activitymark}{\textcolor{activityblue}{$\blacksquare$}}
 
 \setlist[description]{%
 	font={\color{fdsnred}}
