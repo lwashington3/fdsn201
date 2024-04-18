@@ -1,5 +1,5 @@
 <component name="ProjectRunConfigurationManager">
-  <configuration default="false" name="Reflection &amp; Summary (Part 3)" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory" folderName="Credible Sources Assignment">
+  <configuration default="false" name="Literature Review (Part 2)" type="LATEX_RUN_CONFIGURATION" factoryName="LaTeX configuration factory" folderName="Credible Sources Assignment">
     <texify>
       <compiler>PDFLATEX</compiler>
       <compiler-path />
@@ -8,7 +8,7 @@
       <viewer-command>pdfopener</viewer-command>
       <compiler-arguments />
       <envs />
-      <main-file>$PROJECT_DIR$/src/homework/credible_sources/washington_reflection_summary.tex</main-file>
+      <main-file>$PROJECT_DIR$/src/homework/credible_sources/washington_literature_review.tex</main-file>
       <output-path>$PROJECT_DIR$/out/homework/credible_sources</output-path>
       <auxil-path>$PROJECT_DIR$/auxil/homework/credible_sources</auxil-path>
       <compile-twice>false</compile-twice>
